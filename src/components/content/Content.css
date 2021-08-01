@@ -1,0 +1,267 @@
+/* GENERAL CONTENT ARRANGEMENT */
+.decor-div{
+  height: 3rem;
+  background-color: #EFEFEF;
+}
+.widgets {
+  height: 100%;
+  background-color: #dedfe2;
+}
+.first-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* BOX1 */
+.box-1 {
+  margin: 1rem;
+
+  position: relative;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+.box-1-header {
+  position: relative;
+  top: 0.2rem;
+  padding-left: 1rem;
+  align-self: start;
+}
+.box-1 .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.box-1 .percent svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.box-1 .percent svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+
+  stroke-width: 25;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 400;
+  stroke-dashoffset: 300;
+  stroke-linecap: round;
+}
+
+.box-1 .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #2e2544;
+}
+.box-1 .percent svg circle:nth-child(2) {
+  stroke-width: 15;
+  stroke-dashoffset: calc(200- (200 * 50) / 100);
+  stroke: #b373a7;
+}
+
+.box-1 .percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e2544;
+}
+.box-1 .percent .number h2 {
+  font-size: 32px;
+}
+.box-1 .percent .number h2 span {
+  font-size: 18px;
+}
+
+.note {
+  opacity: 0.5;
+  font-size: small;
+  justify-self: end;
+  align-self: start;
+  padding-left: 1rem;
+}
+/* BOX 2-Graph */
+.box-2 {
+  margin: 1rem;
+  position: relative;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+.box-2-header {
+  position: relative;
+  top: 0rem;
+  padding-left: 1rem;
+  align-self: start;
+}
+.box-2-amount {
+  font-weight: bold;
+  font-size: xx-large;
+  letter-spacing: 5px;
+}
+
+/* BOX 3 Long-Graph */
+.box-3 {
+  margin: 1rem ;
+  position: relative;
+
+  width: 450px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+
+/* BOX 4 TimeLine */
+
+.box-4 {
+  margin: 1rem;
+  position: relative;
+  width: 210px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+/* BOX 5 SURVEY */
+.box-5 {
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+.survey {
+  display: flex;
+  align-items: center;
+}
+.box-5-header {
+  font-size: medium;
+  font-weight: bold;
+  position: relative;
+  top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: 1.3rem;
+  align-self: start;
+}
+.box-5-sub-header {
+  opacity: 0.7;
+  padding-left: 1rem;
+  align-self: start;
+  font-size: medium;
+  font-weight: bold;
+}
+.box-5-sub-text {
+  opacity: 0.7;
+  padding-left: 0.5rem;
+  align-self: start;
+  font-size: small;
+  font-weight: 200;
+}
+.box-5-sub-button {
+  position: relative;
+  top: -1rem;
+  width: 7rem;
+  height: 2rem;
+  margin-left: 1rem;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  background: linear-gradient(45deg, #9554a3, #d172ac);
+}
+.box-5-sub-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 15px rgba(145, 92, 182, 0.4);
+}
+
+.box-5-6{
+ height: 40%;
+ 
+}
+/* BOX 6 PROGRESS BAR */
+.box-6 {
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+  height: 195px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+.progressbody{
+  width: 80%;
+}
+.box-7{
+  margin: 1rem;
+  
+}
+.info-box {
+  margin-bottom: 1rem;
+  position: relative;
+  left:1rem;
+  width: 220px;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background: linear-gradient(45deg, #9554a3, #d172ac);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+
+}
+.info-box-title {
+  padding-left: 1rem;
+  align-self: start;
+  justify-self: top;
+  font-size: large;
+  color: white;
+}
+.info-box-text {
+  padding-left: 1rem;
+  opacity: 0.6;
+  align-self: start;
+  justify-self: top;
+  font-size: small;
+  color: white;
+}
+
+.info-box-value{
+  padding-right: 1rem;
+  font-size: 2rem;
+  align-self: flex-end;
+}

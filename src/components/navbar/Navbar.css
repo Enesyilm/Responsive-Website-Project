@@ -1,0 +1,36 @@
+.navbar {
+  left: 2rem;
+  height: 6rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid grey;
+}
+.user {
+  display: flex;
+  height: 6rem;
+  padding-right: 3rem;
+  align-items: center;
+}
+.userphoto{
+  position: relative;
+  top: -3px;
+  justify-self: center;
+}
+.username {
+  font-size: large;
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+.status {
+  height: 7px;
+  width: 7px;
+  position: relative;
+  top: -2px;
+  left: 6px;
+  background-color: green;
+  border-radius: 50%;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+html {
+  color: white;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+      
+
+}
+body {
+  background-color: #dedfe2;
+  overflow-x: hidden;
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.container {
+  display: flex;
+  height: 100%;
+}
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 488px) {
+  .widgets{
+    position: relative;
+    height: 100%;
+  }
+  .navbar{
+    height: 4rem;
+  position: fixed;
+  z-index: 1
+  ;}
+  #sidebar {
+    position: fixed;
+    height: 100%;
+    z-index: 2;
+    width: 5rem;
+  }
+  
+  .second-row{
+    position: relative;
+    top: -14rem;
+  }
+  .box-1{
+    width: 100%;
+  }
+  .box-2{
+    width: 100%;
+  }
+  .box-4{
+    width: 100%;
+  }
+  .box-5{
+      width: 100%;
+  }
+  
+  
+  .box-5-sub-text{
+    margin: 0;
+    font-size: xx-small;
+  }
+  .box-5-sub-button{
+    padding-right: 1.5rem;
+  }
+  .list-item-text {
+    font-size: 0px;
+    color: white;
+  }
+  
+  .first-row{
+    position: relative;
+    top:1rem;
+    left: 2.5rem;
+    transform: scale(0.8,0.8);
+    margin: 1rem 0;
+  }
+  .second-row{
+    position: relative;
+
+    left: 2.5rem;
+    transform: scale(0.8,0.8);
+    margin: 1rem 0;
+  }
+}
+@media(max-width:688px){
+.list-item-text{font-size: 0px;}
+}

@@ -1,0 +1,27 @@
+#chart1{
+    height: 100px;
+    width:200px;
+    position: relative;
+    top:0rem;
+    left:0.1rem;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+#chart2{
+    height: 250px;
+    width:350px;
+    position: relative;
+    top:0rem;
+    left:0.1rem;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+#chart3{
+    height: 220px;
+    width:200px;
+    position: relative;
+    top:-5rem;
+    left:0.1rem;
+    flex-direction: row;
+    justify-self: flex-end;
+}
